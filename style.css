@@ -2,8 +2,10 @@
 
 
 :root {
-    --fonte-principal: #3A404E;
-    --fonte-secundaria: #667085;
+    --cor-principal: #3A404E;
+    --cor-secundaria: #667085;
+    --cor-terciaria: #8E2424;
+    --cor-quarta: #101828; 
 }
 
 * {
@@ -58,4 +60,35 @@ body {
     border-radius: 5px;
     margin: 0 30px;
     width: auto;
+}
+
+.conteudo__principal {
+    padding:30px;
+    text-align: center;
+}
+
+.conteudo__principal__secao {
+    margin: 6%;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.conteudo__principal__subtitulo {
+    color:var(--cor-terciaria);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.conteudo__principal__titulo {
+    font-size: 48px;
+    font-weight: 600;
+    color: var(--cor-quarta);
+}
+
+.conteudo__principal__texto {
+    font-size: 20px;
+    color: var(--cor-secundaria);
+    font-weight: 400;
+    padding: 0 13em;
 }
