@@ -65,6 +65,8 @@ body {
 .conteudo__principal {
     padding:30px;
     text-align: center;
+
+    box-sizing: border-box;
 }
 
 .conteudo__principal__secao {
@@ -91,4 +93,42 @@ body {
     color: var(--cor-secundaria);
     font-weight: 400;
     padding: 0 13em;
+}
+
+.conteiner__metricas {
+
+    display: grid;
+    grid-gap: 2rem; /*É só para eu ter uma noção do espaço que cada div tem.*/
+    grid-template-columns: 23% 23% 23% 23%;
+
+    text-align: left;
+
+
+}
+
+.conteiner__metricas__div {
+    margin-left: 15%;
+    padding: 20px 0; /*Agora ficou bom!*/
+
+}
+
+.conteiner__numero {
+    font-weight: 600;
+    color: var(--cor-terciaria);
+    font-size: 60px;
+    margin-bottom: 13px;
+}
+
+.conteiner__subtitulo {
+    font-weight: 500;
+    color: var(--cor-quarta);
+    font-size: 18px; 
+    margin-bottom: 15px;
+}
+
+.conteiner__texto {
+    font-weight: 400;
+    color: var(--cor-secundaria);
+    font-size: 16px;
+    text-align: left;
 }
