@@ -192,3 +192,51 @@ body {
     flex-direction: row;
     gap: 2rem;
 }
+
+
+.conteudo__terciario {
+    margin-top: 6rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    justify-content: center;
+    text-align: center;
+}
+
+.conteudo__terciario__titulo {
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--cor-terciaria);
+}
+
+.conteudo__terciario__subtitulo {
+    font-weight: 500;
+    font-size: 36px;
+    color: var(--cor-quarta);
+}
+
+.conteudo__terciario__usuario {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+
+    gap: 20px;
+}
+
+.imagem__julia {
+    width: 5%;
+}
+
+.conteudo__terciario__usuario__titulo {
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--cor-quarta);
+}
+
+.conteudo__terciario__usuario__funcao {
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--cor-secundaria);
+}
