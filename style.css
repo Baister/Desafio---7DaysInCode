@@ -132,3 +132,21 @@ body {
     font-size: 16px;
     text-align: left;
 }
+
+.conteudo__secundario__subtitulo {
+    margin-top: 10%;
+    color:var(--cor-terciaria);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.conteudo__secundario__titulo {
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--cor-quarta);
+}
+
+.conteudo__imagem {
+    margin-top: 5%;
+    width: 100%;
+}
