@@ -150,3 +150,39 @@ body {
     margin-top: 5%;
     width: 100%;
 }
+
+.vagas {
+    margin:0 10rem;
+    text-align: left;
+}
+
+.vagas__tipo {
+    font-weight: 500;
+    font-size: 20px;
+    color: var(--cor-quarta);
+}
+
+.vagas__div {
+    margin-top: 3%;
+    margin-left: 2%;
+    margin-bottom: 5%;
+    border: 1px solid #EAECF0;
+    border-radius: 5px;
+    padding: 1rem;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.vagas__tipo__funcao {
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--cor-quarta);
+}
+
+.vagas__tipo__salario {
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--cor-secundaria);
+}
