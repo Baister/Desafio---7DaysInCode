@@ -152,37 +152,43 @@ body {
 }
 
 .vagas {
-    margin:0 10rem;
-    text-align: left;
+    margin: 0 20%;
 }
 
 .vagas__tipo {
-    font-weight: 500;
-    font-size: 20px;
+    text-align: left;
+}
+
+.vagas__tipo__titulo {
     color: var(--cor-quarta);
+    font-size: 20px;
+    font-weight: 500;
+
+    margin-bottom: 3rem;
+    margin-top: 5rem;
 }
 
-.vagas__div {
-    margin-top: 3%;
-    margin-left: 2%;
-    margin-bottom: 5%;
-    border: 1px solid #EAECF0;
-    border-radius: 5px;
-    padding: 1rem;
+.vagas__secao {
+    border: 2px solid #EAECF0;/**#EAECF0*/
+    border-radius:  10px;
+    padding: 2rem;
+    margin-bottom: 30px;
     
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
 }
 
-.vagas__tipo__funcao {
+.vagas__tipo__cargo {
     font-weight: 500;
     font-size: 18px;
     color: var(--cor-quarta);
+    margin-bottom: 3rem;
 }
 
-.vagas__tipo__salario {
+.vagas__periodo {
     font-weight: 500;
     font-size: 16px;
     color: var(--cor-secundaria);
+
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
 }
