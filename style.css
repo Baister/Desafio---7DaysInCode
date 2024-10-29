@@ -240,3 +240,62 @@ body {
     font-size: 14px;
     color: var(--cor-secundaria);
 }
+
+.rodape {
+    margin-top: 8rem;
+    margin-bottom: 3rem;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.rodape__titulo {
+    font-weight: 600;
+    font-size: 36px;
+    color: var(--cor-quarta);
+}
+
+.rodape__texto {
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--cor-secundaria);
+}
+
+#email {
+    background: white;
+    border: 1px solid #d0d5dd; /* Define a borda */
+    border-radius: 8px;
+    width: 20%;
+    padding: 0.5rem;
+
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--cor-secundaria);
+
+    outline: none;
+    box-shadow: none;
+}
+
+#botao {
+    background: var(--cor-terciaria);
+    color: #ffffff;
+
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    margin: 0 30px;
+    width: auto;
+    border: 2px solid var(--cor-terciaria);
+    
+    font-style: bold;
+
+    outline: none;
+    box-shadow: none;
+}
+
+.rodape__autoria {
+    font-weight:400;
+    color: #98a2b3;
+    font-size: 16px;
+}
